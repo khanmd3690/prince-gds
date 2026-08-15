@@ -7,7 +7,9 @@
   "author": {
     "name": "GDs"
   },
-
+"engines": {
+  "node": "24.x"
+},
   "license": "GPL-3.0-or-later",
   "homepage": "https://github.com/Mr-GDs/prince-gds",
   "repository": {
@@ -40,7 +42,7 @@
   ],
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.0",
-    "@whiskeysockets/baileys": "npm:@queenanya/baileys",
+    "@whiskeysockets/baileys": "npm:@queenanya/baileys@9.4.4",
     "archiver": "^7.0.1",
     "adm-zip": "^0.5.16",
     "awesome-phonenumber": "^3.4.0",
